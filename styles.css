@@ -1,0 +1,39 @@
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+body{
+    background-color: #141f15;
+}
+
+h1{
+    margin: 30px;
+    font-family: 'Jacquard 12', sans-serif;
+    text-shadow: 5px 0 #800080;
+    font-size: 8rem;
+    color: #eeb551;
+}
+
+p{
+    font-size: 2.5rem;
+    color: #eeb551;
+    font-family: 'Jacquard 12', sans-serif;
+}
+
+img{
+    width: 40%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #eeb551;
+    text-align: center;
+    font-family: 'Metamorphous', sans-serif;
+  }
