@@ -18,8 +18,13 @@ function rollDice(){
     }
 }
 
-if(!localStorage.getItem("visited")){
-    localStorage.setItem("visited", "true");
-} else{
-    rollDice();
+window.onload = function() {
+    // Check if it's the first-time user
+    if (!localStorage.getItem("visited")) {
+        // Set the "visited" flag in localStorage
+        localStorage.setItem("visited", "true");
+    } else {
+        // Call the rollDice function after the page loads for subsequent visits
+        rollDice();
+    }
 }
